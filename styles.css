@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff8c00, #ff4500);
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
+}
+
+header .logo {
+    max-width: 150px; /* Nastavi velikost logotipa */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: 'Creepster', cursive;
+    color: #e74c3c;
+    font-size: 3em;
+    text-shadow: 3px 3px 10px #000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-family: 'Creepster', cursive;
+    font-size: 2.5em;
+    color: #e74c3c;
+    text-shadow: 3px 3px 10px #000;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em; /* Enaka velikost pisave za vsebino v odsekih */
+    line-height: 1.6;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #e74c3c;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.team-member {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff6600;
+    text-shadow: 2px 2px 5px #000;
+}
